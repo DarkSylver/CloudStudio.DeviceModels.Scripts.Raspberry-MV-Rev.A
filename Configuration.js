@@ -26,7 +26,7 @@ function getEndpoints(deviceAddress, endpoints)
   endpoints.addEndpoint("1", "Temperature sensor", endpointType.temperatureSensor);
   endpoints.addEndpoint("2", "Contador de Personas", endpointType.peopleCounter);
   var e = endpoints.addEndpoint("3", "Color semáforo", endpointType.genericSensor);
-  e.variableTypeId = 1414;
+  e.variableTypeId = 1054;
 }
 
 function validateDeviceAddress(address, result)
